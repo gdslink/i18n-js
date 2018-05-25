@@ -20,7 +20,7 @@ module I18n
       end
 
       def cache_dir
-        @cache_dir ||= Rails.root.join("tmp/cache")
+        @cache_dir ||= Rails.root.join("tmp")
       end
 
       def cache
